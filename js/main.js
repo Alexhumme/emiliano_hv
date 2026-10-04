@@ -1,8 +1,16 @@
 
 // Carrusel de logos de empresas
-const empresas=[["Comfaguajira","CF","#c77f2e"],["SENA","SN","#6f4e37"],["Tuscany Drilling","TD","#8a5a3b"],["Petroworks","PW","#b26a2e"]];
+const empresas=[
+  ["Comfaguajira","CF","#c77f2e", "assets/logos_empresas/comfaguajira.webp"],
+  ["SENA","SN","#6f4e37", "assets/logos_empresas/sena.png"],
+  ["Tuscany Drilling","TD","#8a5a3b", "assets/logos_empresas/tuscany.png"],
+  ["Petroworks","PW","#b26a2e", "assets/logos_empresas/petroworks.png"]
+];
 const cinta=document.getElementById('cinta');
-const lista=empresas.concat(empresas).map(e=>`<div class="logo-empresa"><span class="mono" style="background:${e[2]}">${e[1]}</span>${e[0]}</div>`).join('');
+const lista=empresas.concat(empresas).map(
+  e=>`<div class="logo-empresa">
+        <img src="${e[3]}"></img>
+      </div>`).join('');
 cinta.innerHTML=lista+lista;
 
 // Texto que se escribe

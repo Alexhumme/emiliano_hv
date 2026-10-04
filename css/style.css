@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@500;700&display=swap');
 
 :root {
-  --ambar: #e0a458;
-  --ambar-oscuro: #c77f2e;
-  --cafe: #6f4e37;
-  --cafe-oscuro: #3e2c1e;
+  --ambar: #f9de7a;
+  --ambar-oscuro: #de9d52;
+  --cafe: #75180c;
+  --cafe-oscuro: #814b22;
   --crema: #fbf3e4;
   --pastel: #f6e7cf;
   --blanco: #fffdf8;
-  --texto: #4a3826;
+  --texto: #5b3a19;
 }
 
 * {
@@ -644,7 +644,6 @@ header.con-fondo {
   font-weight: bold;
   color: var(--cafe);
   white-space: nowrap;
-  box-shadow: 0 6px 16px rgba(111, 78, 55, .12);
   transition: transform .3s
 }
 
@@ -661,6 +660,10 @@ header.con-fondo {
   justify-content: center;
   color: white;
   font-size: .85rem
+}
+
+.logo-empresa img {
+  height: 40px;
 }
 
 @keyframes cinta {
@@ -720,8 +723,12 @@ header.con-fondo {
   font-size: 2.4rem
 }
 
-#contacto p {
+#contacto p.desc {
   margin: 16px auto 28px;
+}
+
+#contacto p {
+  margin: 0;
   max-width: 560px
 }
 
