@@ -1,5 +1,5 @@
-desarrollar un portafolio web para el Magíster en Pedagogía, Especialista en Estrategia Gerencial y Prospectiva y Administrador de empresas Emiliano Mejia Gonzales.
-El profesor gonzales busca que el portafolio transmita sensasiones agradables y profesionales, con un tema claro y colores apastelados que conecten con el ambar y el cafe y una estetica que cautive el ojo y guie visualmente de manera efectiva la atencion del lector.
+desarrollar un portafolio web para el Magíster en Pedagogía, Especialista en Estrategia Gerencial y Prospectiva y Administrador de empresas Emiliano Mejía González.
+El profesor gonzález busca que el portafolio transmita sensasiones agradables y profesionales, con un tema claro y colores apastelados que conecten con el ambar y el cafe y una estetica que cautive el ojo y guie visualmente de manera efectiva la atencion del lector.
 
 
 el porfolio debe incluir:

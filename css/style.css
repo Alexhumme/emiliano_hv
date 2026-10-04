@@ -47,6 +47,17 @@ section {
   z-index: 10;
 }
 
+.onda-top {
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: block;
+  z-index: 10;
+}
+
 .titulo-seccion {
   text-align: center;
   margin-bottom: 50px
@@ -709,6 +720,19 @@ header.con-fondo {
   font-style: normal;
   font-weight: bold
 }
+
+#galeria { background: var(--blanco); padding: 0 }
+.mosaico { display: grid; grid-template-columns: repeat(6,1fr); grid-auto-rows: 205px; grid-auto-flow: dense; gap: 1px }
+.mosaico .celda { position: relative; overflow: hidden; border-radius: 0; }
+.mosaico .celda:nth-child(4n+1) { grid-column: span 2; grid-row: span 2 }
+.mosaico .celda:nth-child(7n+3) { grid-column: span 2 }
+.mosaico .celda img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s }
+.mosaico .celda::after { content: ''; position: absolute; inset: 0; background: rgba(62,44,30,.55); transition: opacity .4s }
+.mosaico .celda:hover::after { opacity: 0 }
+.mosaico .celda:hover img { transform: scale(1.08) }
+#sigTestimonio { margin-top: 18px; width: 44px; height: 44px; border-radius: 50%; border: none; background: var(--ambar-oscuro); cursor: pointer; transition: transform .3s,background .3s }
+#sigTestimonio:hover { transform: scale(1.12); background: var(--cafe) }
+#sigTestimonio img { width: 22px; height: 22px }
 
 /* CTA */
 #contacto {

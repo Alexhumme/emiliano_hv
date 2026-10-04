@@ -1,5 +1,5 @@
 # Hoja de vida
-## Emiliano Mejia Gonzales
+## Emiliano Mejía González
 
 1. Instructor Formación Técnica (Educación para el Trabajo y Desrrollo Humano - ETDH) , orientando seminarios empresariales: Proceso Administrativo, Administración del Recurso Humano, Gestión Administrativa, Servicio al Cliente y Habilidades para la Vida (Desarrollo Personal).
 
@@ -32,6 +32,6 @@
 ## contactos
 - linkedin : https://www.linkedin.com/in/emiliano-alcides-mej%C3%ADa-gonz%C3%A1lez-1841b9232/
 - 3006127955 (Mobile + whatsapp) 
-- emilianomejiagonzalez@gmail.com
+- emilianomejíagonzález@gmail.com
 
 (importante) se pueden encontrar mas datos necesarios para la completacion del cv en ./assets/hoja_de_vida_cvlac.pdf
