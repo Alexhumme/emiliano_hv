@@ -843,7 +843,19 @@ footer {
   color: var(--pastel);
   text-align: center;
   padding: 22px;
-  font-family: 'Poppins', sans-serif
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer a {
+  color: var(--ambar);
+  font-weight: bold;
+}
+
+footer img {
+  width: 20px;
 }
 
 .revelar {
